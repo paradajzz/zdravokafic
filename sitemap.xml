@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Sitemap za sajt Zdravo Kafić -->
+
+  <!-- Glavna stranica -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Karta pića -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git/#drink</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- O nama -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git/#about</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Specijaliteti -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git/#special</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kontakt -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git/#contact</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Autor sajta -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git/#author</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- PDF Dokumentacija -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git/doc/dokumentacija.pdf</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ZIP fajl -->
+  <url>
+    <loc>https://github.com/paradajzz/zdravokafic.git/projekt.zip</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
