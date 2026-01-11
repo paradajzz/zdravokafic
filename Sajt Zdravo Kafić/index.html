@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zdravo Kafić</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> 
+    <link rel="stylesheet" href="css/tooplate-wave-cafe.css">
+    <meta name="description" content="Zdravo Kafić - Najbolji interaktivni sajt o kafi i pićima.">
+    <meta name="keywords" content="cafe, coffee, drinks, smoothie, espresso, latte, cappuccino">
+</head>
+<body>
+<div class="tm-container">
+    <div class="tm-row">
+        <!-- Site Header -->
+        <div class="tm-left">
+            <div class="tm-left-inner">
+                <div class="tm-site-header">
+                    <i class="fas fa-coffee fa-3x tm-site-logo"></i>
+                    <h1 class="tm-site-name">Zdravo Kafić</h1>
+                </div>
+                <nav class="tm-site-nav">
+                    <ul class="tm-site-nav-ul">
+                        <li class="tm-page-nav-item"><a href="#drink" class="tm-page-link active"><i class="fas fa-mug-hot tm-page-link-icon"></i><span>Karta pića</span></a></li>
+                        <li class="tm-page-nav-item"><a href="#about" class="tm-page-link"><i class="fas fa-users tm-page-link-icon"></i><span>O nama</span></a></li>
+                        <li class="tm-page-nav-item"><a href="#special" class="tm-page-link"><i class="fas fa-glass-martini tm-page-link-icon"></i><span>Specijaliteti</span></a></li>
+                        <li class="tm-page-nav-item"><a href="#contact" class="tm-page-link"><i class="fas fa-comments tm-page-link-icon"></i><span>Kontakt</span></a></li>
+                        <li class="tm-page-nav-item"><a href="#author" class="tm-page-link"><i class="fas fa-user tm-page-link-icon"></i><span>Autor</span></a></li>
+                        <li class="tm-page-nav-item"><a href="doc/dokumentacija.pdf" class="tm-page-link no-js" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf tm-page-link-icon"></i><span>Dokumentacija</span></a></li>
+                        <li class="tm-page-nav-item"><a href="projekt.zip" class="tm-page-link" download><i class="fas fa-file-zip tm-page-link-icon"></i><span>Preuzmi ZIP</span></a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </div>
+        <div class="tm-right">
+            <main class="tm-main">
+                <!-- Drink Menu Page -->
+                <div id="drink" class="tm-page-content">
+                    <nav class="tm-black-bg tm-drinks-nav">
+                        <ul>
+                            <li><a href="#" class="tm-tab-link active" data-id="cold">Hladni napitci</a></li>
+                            <li><a href="#" class="tm-tab-link" data-id="hot">Vrući napitci</a></li>
+                            <li><a href="#" class="tm-tab-link" data-id="juice">Ceđeni sokovi</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="cold" class="tm-tab-content"></div>
+                    <div id="hot" class="tm-tab-content"></div>
+                    <div id="juice" class="tm-tab-content"></div>
+                </div>
+
+                <!-- About Us Page -->
+                <div id="about" class="tm-page-content">
+                    <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
+                        <h2 class="tm-text-primary tm-about-header">O nama</h2>
+                        <div class="tm-list-item tm-list-item-2">                
+                            <img src="img/about-1.png" alt="Image" class="tm-list-item-img tm-list-item-img-big">
+                            <div class="tm-list-item-text-2">
+                                <p>Wave Cafe je moderan kafić sa fokusom na kvalitetne kafe i osvežavajuće napitke. Inspirisani smo idejom stvaranja mesta gde posetioci mogu da uživaju u dobroj kafi i prijatnom ambijentu</p>
+                                <p></p>
+                            </div>                
+                        </div>
+                    </div>
+                    <div class="tm-black-bg tm-mb-20 tm-about-box-2">              
+                        <div class="tm-list-item tm-list-item-2">                
+                            <div class="tm-list-item-text-2">
+                                <h2 class="tm-text-primary">Naša misija</h2>
+                                <p>Naša misija je pružiti najbolji kvalitet napitaka i usluge. Naš tim se sastoji od stručnih barista koji su posvećeni svakom napitku i svakom gostu. Cilj nam je da svaki posetilac napusti naš kafić sa osmehom i željom da se vrati.</p>                  
+                            </div>                
+                            <img src="img/about-2.png" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right">                
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Special Items Page -->
+                <div id="special" class="tm-page-content">
+                    <div class="tm-special-items"></div>            
+                </div>
+
+
+                <!-- Contact Page -->
+                <div id="contact" class="tm-page-content">
+                    <div class="tm-black-bg tm-contact-text-container">
+                        <h2 class="tm-text-primary">Rezervišite kod nas!</h2>
+                        <p>Hvala što želite da rezervišete svoje mesto u Wave Cafe. Popunite formu i potvrdite rezervaciju. Mi ćemo se javiti što pre kako bismo potvrdili vašu rezervaciju!</p>
+                    </div>
+                    <div class="tm-black-bg tm-contact-form-container tm-align-right">
+                        <form id="reservationForm">
+                            <div class="row">
+                                <div class="col-md-6 forma">
+                                    <div class="mb-3 me-3">
+                                        <label for="name" class="form-label text-warning slova1">Ime</label><label class="zvezdica">*</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Unesi ime" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6 forma">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label text-warning slova1">Email</label><label class="zvezdica">*</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Tvoj email je?" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6 forma">
+                                    <div class="mb-3 me-3">
+                                        <label for="phone" class="form-label text-warning slova1">Telefon</label><label class="zvezdica">*</label>
+                                        <input type="tel" class="form-control" id="phone" placeholder="Broj telefona" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6 forma">
+                                    <div class="mb-3 me-3">
+                                        <label for="date" class="form-label text-warning slova1">Datum rezervacije</label><label class="zvezdica">*</label>
+                                        <input type="date" class="form-control" id="date" >
+                                    </div>
+                                </div>
+                                <div class="col-12 forma">
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label text-warning slova1">Poruka</label>
+                                        <textarea class="form-control" id="message" rows="3" placeholder="Napišite nešto lepo"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-0">
+                                    <button type="submit" class="btn btn-warning p-2 dugm" style="padding: 10px;">Potvrdi rezervaciju</button>
+                                    <div id="successMessage" style="display:none; color: green; font-weight: bold; margin-top: 20px;">
+                                        Hvala na potvrdi!<br>Uspešno ste rezervisali!
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Author Page -->
+                <div id="author" class="tm-page-content">
+                    <div class="tm-black-bg tm-contact-text-container">
+                        <h2 class="tm-text-primary">Autor sajta</h2>
+                    <div class ="slika"><img src="img/moja.jpg" class="slicica" alt="lepsam"></div>
+                        <p>Dimitirje Petrović 133/23</p>
+                        <p>Student ICT Više škole u Beogradu, IT smer.</p>
+                    </div>
+                </div>
+            </main>
+        </div>    
+    </div>
+    <footer class="tm-site-footer">
+      <div class="tm-black-bg">
+        <p class="tm-black-bg tm-footer-text">Copyright 2020 Wave Cafe
+        | Design: <a href="https://www.tooplate.com" class="tm-footer-link" rel="sponsored" target="_parent">Tooplate</a></p>
+         <div class="tm-footer-icons">
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="sitemap.xml" target="_blank"><i class="fas fa-sitemap"></i></a>
+        <a href="rss.xml" target="_blank"><i class="fas fa-rss"></i></a>
+    </div>
+    </div>
+    </footer>
+</div>
+
+<!-- Background video -->
+<div class="tm-video-wrapper">
+    <i id="tm-video-control-button" class="fas fa-pause"></i>
+    <video autoplay muted loop id="tm-video">
+        <source src="video/wave-cafe-video-bg.mp4" type="video/mp4">
+    </video>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="JavaScript/main.js"></script>
+</body>
+</html>
